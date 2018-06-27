@@ -1,3 +1,4 @@
+{{{{raw}}}}
 <template>
   <v-app>
     <v-content>
@@ -22,6 +23,7 @@
     </v-content>
   </v-app>
 </template>
+{{{{/raw}}}}
 
 <script>
 import { mapGetters } from 'vuex'

@@ -1,3 +1,4 @@
+{{{{raw}}}}
 <template>
   <div>
     <v-navigation-drawer :clipped="$vuetify.breakpoint.lgAndUp" v-model="drawer" fixed app>
@@ -69,6 +70,7 @@
     </v-toolbar>
   </div>
 </template>
+{{{{/raw}}}}
 
 <script>
   export default {

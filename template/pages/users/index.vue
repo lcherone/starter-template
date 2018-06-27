@@ -1,3 +1,4 @@
+{{{{raw}}}}
 <template>
   <v-app>
     <v-content>
@@ -20,7 +21,6 @@
                 <v-alert type="error" :value="error">
                   {{ error }}
                 </v-alert>
-                
                 <ul class="users">
                   <li v-for="(user, index) in users" :key="index" class="user">
                     <nuxt-link :to="{ params: { id: index }, path: `/users/${index}`}">
@@ -28,8 +28,7 @@
                     </nuxt-link>
                   </li>
                 </ul>
-                
-                
+
                 <!--<v-data-table :headers="headers" :items="items" hide-actions class="elevation-1">-->
                 <!--  <template slot="items" slot-scope="props">-->
                 <!--    <td><a href="javascript:void(0)" @click="authItem(props.item)">{{ props.item.label }}</a></td>-->
@@ -107,6 +106,7 @@
     </v-content>
   </v-app>
 </template>
+{{{{/raw}}}}
 
 <script>
 import { mapGetters } from 'vuex'

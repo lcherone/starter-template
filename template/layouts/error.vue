@@ -1,3 +1,4 @@
+{{{{raw}}}}
 <template>
   <v-app>
     <v-content>
@@ -31,6 +32,8 @@
     </v-content>
   </v-app>
 </template>
+{{{{/raw}}}}
+
 <script>
 export default {
   props: ['error']

@@ -1,3 +1,4 @@
+{{{{raw}}}}
 <template>
   <v-layout row justify-center>
     <v-dialog v-model="dialog" :persistent="options.persistent || false" :max-width="options.width || '350'" scrollable>
@@ -19,6 +20,7 @@
     </v-dialog>
   </v-layout>
 </template>
+{{{{/raw}}}}
 
 <script>
   import prompt from '~/plugins/prompt/prompt'

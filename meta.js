@@ -2,6 +2,9 @@ module.exports = {
   helpers: {
     escape: function(value) {
       return value.replace(/'/g, '&apos;');
+    },
+    raw: function(options) {
+      return options.fn(this)
     }
   },
   prompts: {
