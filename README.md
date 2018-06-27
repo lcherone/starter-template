@@ -1,8 +1,14 @@
-# Starter
+# Starter - Nuxt.js + Express JWT + Vuetify
 
-A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
+A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template which includes the following:
 
-Live demo: https://starter.nuxtjs.org
+ - Vuetify with local material icons and roboto fonts
+ - Babel-polyfill added
+ - Express server middleware for JWT authentication
+ - Client/Server JWT store handling for protected axios calls 
+ - Example API routes, auth and users
+ - Login page with validation and error display
+ - Example prompt as a plugin
 
 ## Prerequisites
 
@@ -13,7 +19,7 @@ Make sure to have `node 8.0+` and `npm 5.0+` installed
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ vue init nuxt-community/starter-template my-project  
+$ vue init lcherone/starter-template my-project  
 $ cd my-project                     
 # install dependencies
 $ npm install # Or yarn install

@@ -8,10 +8,10 @@
   export default {
     head () {
       return {
-        title: 'Dashboard'
+        title: 'Auth'
       }
     },
-    middleware: 'authenticated'
+    layout: 'auth'
   }
 </script>
 

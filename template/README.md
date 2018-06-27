@@ -20,3 +20,5 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+Created from [https://github.com/lcherone/starter-template](https://github.com/lcherone/starter-template)
